@@ -1,0 +1,70 @@
+.board {
+    width: 320px;
+    min-height: 200px;
+
+    border-radius: 12px;
+    padding: 16px;
+    margin: 8px;
+  }
+  
+  .board h2 {
+    font-size: 14px;
+    color: #1e1e1e;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .board h2 span {
+    background: #e9ecef;
+    color: #6b7280;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-left: 8px;
+    font-weight: 500;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .task-card {
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+  }
+  
+  .task-card .task-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .task-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin: 0;
+  }
+  
+  .task-badge {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #f3f4f6;
+    color: #6b7280;
+  }
+  
+  .empty-state {
+    color: #6b7280;
+    font-size: 14px;
+    text-align: center;
+    padding: 24px 0;
+  }
